@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { filterMovies } from "../util/filterMovies";
+import { Header } from "./Header";
 import { Home } from "./Home";
 import { Movies } from "./Movies";
 import { Series } from "./Series";
@@ -21,6 +22,7 @@ export function MoviesApp() {
 
   return (
     <div>
+      <Header />
       {page === "Home" && (
         <Home
           onMoviesClick={() => setPage("Movies")}
