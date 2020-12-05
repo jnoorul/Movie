@@ -12,12 +12,14 @@ const Title = styled.h3`
 `;
 
 const Login = styled.button`
+  color: white;
   background-color: blue;
   border: 0;
   flex: 0.4;
 `;
 
 const FreeTrial = styled.button`
+  color: white;
   background-color: grey;
   flex: 0.4;
 `;
